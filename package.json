@@ -1,0 +1,40 @@
+{
+  "name": "browserify-smith",
+  "version": "0.5.0",
+  "description": "Agent Smith for Browserify, includes transforms for LESS, Jade and CoffeeScript transforms.",
+  "keywords": ["browserify", "coffeescript", "less", "jade"],
+  "homepage": "https://github.com/alexgorbatchev/browserify-smith",
+  "bugs": "https://github.com/alexgorbatchev/browserify-smith/issues",
+  "author": {
+    "name": "Alex Gorbatchev",
+    "url": "https://github.com/alexgorbatchev"
+  },
+  "main": "./lib/browserify-smith.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexgorbatchev/browserify-smith.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.spec.coffee",
+    "pretest": "./node_modules/.bin/coffee --bare --output ./lib --compile ./src/*.coffee"
+  },
+  "dependencies": {
+    "through": "^2.3.4"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "coffee-errors": "^0.8.5",
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1",
+    "coffee-compiler": "^0.3.2",
+    "jade-compiler": "^0.5.1",
+    "less": "^1.7.0",
+    "less-compiler": "^0.2.4",
+    "browserify": "^3.44.2"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
