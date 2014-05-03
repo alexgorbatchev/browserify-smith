@@ -6,7 +6,7 @@
 
 [![NPM](https://nodei.co/npm/browserify-smith.svg?downloads=true)](https://npmjs.org/package/browserify-smith)
 
-Agent Smith for [Browserify] includes transforms for [LESS] [Jade] and [CoffeeScript] transforms.
+Agent Smith for [Browserify] includes transforms for [LESS], [Jade] and [CoffeeScript] transforms.
 
 ## Installation
 
@@ -27,7 +27,6 @@ In you `package.json` add the following:
 And now in that module you can `require()` the following files:
 
 * `.coffee`
-* `.js`
 * `.jade` (exports HTML string)
 * `.less` (exports CSS string)
 

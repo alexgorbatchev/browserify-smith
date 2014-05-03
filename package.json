@@ -2,7 +2,12 @@
   "name": "browserify-smith",
   "version": "0.5.0",
   "description": "Agent Smith for Browserify, includes transforms for LESS, Jade and CoffeeScript transforms.",
-  "keywords": ["browserify", "coffeescript", "less", "jade"],
+  "keywords": [
+    "browserify",
+    "coffeescript",
+    "less",
+    "jade"
+  ],
   "homepage": "https://github.com/alexgorbatchev/browserify-smith",
   "bugs": "https://github.com/alexgorbatchev/browserify-smith/issues",
   "author": {
@@ -19,7 +24,7 @@
     "pretest": "./node_modules/.bin/coffee --bare --output ./lib --compile ./src/*.coffee"
   },
   "dependencies": {
-    "through": "^2.3.4"
+    "browserify-through": "^0.5.0"
   },
   "devDependencies": {
     "coffee-script": "^1.7.1",
