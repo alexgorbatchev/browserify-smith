@@ -1,10 +1,10 @@
 # browserify-smith
 
-[![Dependency status](https://david-dm.org/alexgorbatchev/browserify-smith.png)](https://david-dm.org/alexgorbatchev/browserify-smith)
-[![devDependency Status](https://david-dm.org/alexgorbatchev/browserify-smith/dev-status.png)](https://david-dm.org/alexgorbatchev/browserify-smith#info=devDependencies)
-[![Build Status](https://secure.travis-ci.org/alexgorbatchev/browserify-smith.png?branch=master)](https://travis-ci.org/alexgorbatchev/browserify-smith)
+[![Dependency status](https://david-dm.org/alexgorbatchev/browserify-smith.svg)](https://david-dm.org/alexgorbatchev/browserify-smith)
+[![devDependency Status](https://david-dm.org/alexgorbatchev/browserify-smith/dev-status.svg)](https://david-dm.org/alexgorbatchev/browserify-smith#info=devDependencies)
+[![Build Status](https://secure.travis-ci.org/alexgorbatchev/browserify-smith.svg?branch=master)](https://travis-ci.org/alexgorbatchev/browserify-smith)
 
-[![NPM](https://nodei.co/npm/browserify-smith.png?downloads=true)](https://npmjs.org/package/browserify-smith)
+[![NPM](https://nodei.co/npm/browserify-smith.svg?downloads=true)](https://npmjs.org/package/browserify-smith)
 
 Agent Smith for [Browserify] includes transforms for [LESS] [Jade] and [CoffeeScript] transforms.
 
