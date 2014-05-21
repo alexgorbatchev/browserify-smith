@@ -29,13 +29,13 @@
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "coffee-errors": "^0.8.5",
-    "mocha": "^1.18.2",
+    "mocha": "^1.19.0",
     "chai": "^1.9.1",
     "coffee-compiler": "^0.3.2",
     "jade-compiler": "^0.5.1",
     "less": "^1.7.0",
     "less-compiler": "^0.2.4",
-    "browserify": "^3.44.2"
+    "browserify": "^4.1.5"
   },
   "engines": {
     "node": ">=0.10.0",
