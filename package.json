@@ -1,6 +1,6 @@
 {
   "name": "browserify-smith",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Agent Smith for Browserify, includes transforms for LESS, Jade and CoffeeScript transforms.",
   "keywords": [
     "browserify",
